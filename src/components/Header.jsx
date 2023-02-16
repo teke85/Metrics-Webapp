@@ -5,7 +5,7 @@ import './Header.css';
 import { FaChevronLeft } from 'react-icons/fa';
 import { IoSettingsSharp } from 'react-icons/io5';
 import { BsMicFill } from 'react-icons/bs';
-import { updateTitle } from '../redux/title/titleReducer';
+import { updateTitle } from '../Redux/Title/titleReducer';
 
 const Header = () => {
   const dispatch = useDispatch();

@@ -2,7 +2,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Continents from './pages/Continents';
-import store from './redux/configureStore';
+import store from './Redux/configureStore';
 import './App.css';
 import Countries from './pages/Countries';
 import CountryDetails from './pages/CountryDetails';

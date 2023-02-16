@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import { getCountries } from '../redux/country/countriesSlice';
+import { getCountries } from '../Redux/Country/countriesSlice';
 import Country from '../components/Country';
 import Wrapper from '../components/Wrapper';
 

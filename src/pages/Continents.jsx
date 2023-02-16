@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import { getContinents } from '../redux/continent/continentsSlice';
+import { getContinents } from '../Redux/Continent/continentsSlice';
 import Continent from '../components/Continent';
 import Wrapper from '../components/Wrapper';
-import world from '../assets/images/world.svg';
+import world from '../images/world.svg';
 
 const Continents = () => {
   const navigate = useNavigate();
