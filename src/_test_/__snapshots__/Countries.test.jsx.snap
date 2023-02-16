@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries page renders correctly 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="page-header"
+  >
+    <img
+      alt=""
+      className="page-image"
+      src=""
+    />
+    <div
+      className="page-title"
+    >
+      <h2
+        className="heading-color"
+      />
+      <span
+        className="heading-color"
+      />
+    </div>
+  </div>
+  <div
+    className="title-sec"
+  >
+    <h4
+      className="heading-color"
+    >
+       
+      Countries in
+    </h4>
+  </div>
+  <nav
+    className="navbar navbar-expand navbar-light"
+  >
+    <div
+      className="navbar navbar-nav"
+      onKeyDown={[Function]}
+    />
+  </nav>
+</div>
+`;
