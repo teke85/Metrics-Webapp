@@ -60,6 +60,12 @@ body {
 
 .navbar .nav-item {
   background-color: #3e63a7;
+  transition: transform 0.9s ease;
+}
+
+.navbar .nav-item:hover {
+  background-color: #5687E4;
+  transform: scale(0.9);
 }
 
 .nav-link {
