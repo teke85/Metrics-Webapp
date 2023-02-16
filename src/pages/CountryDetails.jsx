@@ -8,7 +8,9 @@ const CountryDetails = () => {
   const searchParams = new URLSearchParams(location.search);
   const country = JSON.parse(searchParams.get('country') || '{}');
 
-  const { name, population, area, official, capital, lat, lng, flag } = country;
+  const {
+    name, population, area, official, capital, lat, lng, flag,
+  } = country;
 
   return (
     <div className="main-container">
@@ -37,7 +39,11 @@ const CountryDetails = () => {
         </div>
         <div className="item heading-color">
           Area
-          <span>{area} sq. km</span>
+          <span>
+            {area}
+            {' '}
+            sq. km
+          </span>
         </div>
         <div className="item heading-color">
           Latitude

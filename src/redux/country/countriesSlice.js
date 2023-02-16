@@ -2,8 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const COUNTRY_URL = 'https://restcountries.com/v3.1/region/';
-const COUNTRY_MAP_URL =
-  'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/';
+const COUNTRY_MAP_URL = 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/';
 const initialState = {
   countries: [],
   status: 'idle',
@@ -17,7 +16,7 @@ export const getCountries = createAsyncThunk(
     const response = await axios.get(`${COUNTRY_URL}${region}`);
 
     return response.data.filter((country) => country.continents[0] === name);
-  }
+  },
 );
 
 const countryInformation = (data) => {

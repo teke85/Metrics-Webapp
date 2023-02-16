@@ -40,7 +40,7 @@ const Header = () => {
         <FaChevronLeft className="arrow-left" onClick={() => navigate(-1)} />
         <h2 className="year">2023</h2>
       </div>
-      <span class="title">{title.title}</span>
+      <span className="title">{title.title}</span>
       <div className="col-right">
         <BsMicFill className="mic" />
         <IoSettingsSharp className="gear" />

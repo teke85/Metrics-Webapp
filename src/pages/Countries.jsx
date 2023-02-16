@@ -13,14 +13,16 @@ const Countries = () => {
   const searchParams = new URLSearchParams(location.search);
   const continent = JSON.parse(searchParams.get('continent') || '{}');
 
-  const { region, map, population, name, noOfCountries } = continent;
+  const {
+    region, map, population, name, noOfCountries,
+  } = continent;
   const { countries, status, error } = useSelector((state) => state.countries);
 
   useEffect(() => {
     if (
-      countries.length === 0 ||
-      region !== countries[0].region ||
-      name !== countries[0].continent
+      countries.length === 0
+      || region !== countries[0].region
+      || name !== countries[0].continent
     ) {
       dispatch(getCountries({ region, name }));
     }
@@ -53,7 +55,10 @@ const Countries = () => {
       />
       <div className="title-sec">
         <h4 className="heading-color">
-          {noOfCountries} Countries in {name}
+          {noOfCountries}
+          {' '}
+          Countries in
+          {name}
         </h4>
       </div>
       <Navbar>

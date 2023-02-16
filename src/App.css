@@ -1,19 +1,19 @@
 body {
-    background-color: #3e63a7;
+  background-color: #3e63a7;
 }
 
 .title {
-    color: #fff;
+  color: #fff;
 }
 
 .mic {
-    font-size: 20px;
-    color: #fff;
+  font-size: 20px;
+  color: #fff;
 }
 
 .gear {
-font-size: 20px;
-color: #fff;
+  font-size: 20px;
+  color: #fff;
 }
 
 .containerMain {
@@ -109,5 +109,5 @@ color: #fff;
 }
 
 .heading-color {
-    color: #fff;
+  color: #fff;
 }

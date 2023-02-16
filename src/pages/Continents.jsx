@@ -11,7 +11,7 @@ const Continents = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { continents, status, error } = useSelector(
-    (state) => state.continents
+    (state) => state.continents,
   );
 
   useEffect(() => {
