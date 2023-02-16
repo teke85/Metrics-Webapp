@@ -1,7 +1,7 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import continentsSlice from './continent/continentsSlice';
-import countriesSlice from './country/countriesSlice';
-import titleReducer from './title/titleReducer';
+import continentsSlice from './Continent/continentsSlice';
+import countriesSlice from './Country/countriesSlice';
+import titleReducer from './Title/titleReducer';
 
 const reducer = combineReducers({
   continents: continentsSlice,
