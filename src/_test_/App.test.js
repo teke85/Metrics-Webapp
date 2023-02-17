@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import App from '../App';
 import store from '../redux/configureStore';
@@ -12,7 +13,7 @@ it('Check if Item component has changed', () => {
         <BrowserRouter>
           <App />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
@@ -24,7 +25,7 @@ it('Check if the App container is there', async () => {
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </Provider>
+    </Provider>,
   );
   const container = await screen.findByTestId('app-container');
   expect(container).toBeInTheDocument();

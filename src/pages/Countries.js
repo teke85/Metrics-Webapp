@@ -26,7 +26,7 @@ const Countries = () => {
     ) {
       dispatch(getCountries({ region, name }));
     }
-  }, [countries, dispatch]);
+  }, [countries, dispatch, name, region]);
 
   const handleCountryClick = (country) => {
     navigate(`/country?country=${JSON.stringify(country)}`);

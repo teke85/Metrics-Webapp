@@ -60,7 +60,7 @@ body {
 
 .navbar .nav-item {
   background-color: #3e63a7;
-  transition: transform 0.9s ease;
+  transition: transform 0q.9s ease;
 }
 
 .navbar .nav-item:hover {

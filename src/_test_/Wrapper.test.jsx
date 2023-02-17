@@ -5,17 +5,17 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../Redux/configureStore';
 import '@testing-library/jest-dom';
-import PageHeader from '../components/PageHeader';
+import Wrapper from '../components/Wrapper';
 
-describe('PageHeader component', () => {
+describe('Wrapper component', () => {
   test('renders correctly', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
           <BrowserRouter>
-            <PageHeader />
+            <Wrapper />
           </BrowserRouter>
-        </Provider>
+        </Provider>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
@@ -23,7 +23,7 @@ describe('PageHeader component', () => {
 
   test('renders the PageHeader component with non-default props', () => {
     const { getByAltText, getByText } = render(
-      <PageHeader name="Test City" population={100000} map="test-map.png" />
+      <Wrapper name="Test City" population={100000} map="test-map.png" />,
     );
     const pageImage = getByAltText('Test City');
     const pageTitle = getByText('Test City');
@@ -33,7 +33,7 @@ describe('PageHeader component', () => {
 
   test('renders the correct population in the PageHeader component', () => {
     const { getByText } = render(
-      <PageHeader name="Test City" population={100000} map="test-map.png" />
+      <Wrapper name="Test City" population={100000} map="test-map.png" />,
     );
     const population = getByText('100000');
     expect(population).toBeInTheDocument();
