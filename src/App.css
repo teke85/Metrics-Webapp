@@ -50,6 +50,8 @@ body {
   box-sizing: border-box;
   padding: 5px;
   color: #fff;
+  background-color: #3e63a7;
+  transition: transform 1.9s ease;
 }
 
 .navbar .nav-item:nth-child(1),
@@ -58,13 +60,8 @@ body {
   background-color: #4268af;
 }
 
-.navbar .nav-item {
-  background-color: #3e63a7;
-  transition: transform 1.9s ease;
-}
-
 .navbar .nav-item:hover {
-  background-color: #5687E4;
+  background-color: #5687e4;
   transform: scale(0.9);
 }
 
