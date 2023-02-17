@@ -77,14 +77,14 @@ You will select an API that provides numeric data about a topic that you like an
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://tariq-metrics-webapp.onrender.com/) 
+- [Live Demo]() 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DESCRIPTION VIDEO LINK -->
 ## 🚀 Description Video Link <a name="live-demo"></a>
 
-- [Description Video Link](https://www.loom.com/share/a4049f6e021049139b492daae953ecbe)
+- [Description Video Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
