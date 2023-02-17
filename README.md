@@ -88,7 +88,7 @@ You will select an API that provides numeric data about a topic that you like an
 
 ## 🚀 Description Video Link <a name="live-demo"></a>
 
-- [Description Video Link]()
+- [Description Video Link](https://www.loom.com/share/98e3385a8dee47eeb2014bbbdc039ca3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -238,7 +238,8 @@ If you like this project, please give it a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Special thanks to all the assistance received!
+I highly appreciated [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for his excellent design. 
+I would like to thank all reviewers and testers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
