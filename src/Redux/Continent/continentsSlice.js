@@ -34,7 +34,9 @@ const continentalInformation = (data) => {
       return regions;
     }
     const continent = country.continents[0];
-    totalPopulationByContinent[continent] = (totalPopulationByContinent[continent] || 0) + country.population;
+    totalPopulationByContinent[continent] = (
+      (totalPopulationByContinent[continent] || 0) + country.population
+    );
     totalCountriesByContinent[continent] = (totalCountriesByContinent[continent] || 0) + 1;
 
     if (
