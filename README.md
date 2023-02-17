@@ -133,7 +133,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/developertariq/bookstore.git
+  git clone https://github.com/teke85/Metrics-Webapp
 
 ```
 
