@@ -231,7 +231,9 @@ If you like this project, please give it a star ⭐
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-Special thanks to all the assistance received!
+
+I highly appreciated [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for his excellent design. 
+I would like to thank all reviewers and testers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
