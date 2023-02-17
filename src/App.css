@@ -48,7 +48,7 @@ body {
   width: 50%;
   height: 150px;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 0.6rem;
   color: #fff;
   background-color: #3e63a7;
   transition: transform 1.9s ease;
