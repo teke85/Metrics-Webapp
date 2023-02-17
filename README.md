@@ -62,12 +62,15 @@ You will select an API that provides numeric data about a topic that you like an
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
 #### Home page
+
 - When the page loads, the webapp shows the list of categories that could be filtered out by some parameter, for example by the category name.
 - Along with the category name, you will display some numeric values per category that come from the API.
 - When the user clicks (or taps) on a category item, the application navigates to the details page.
 
 ### Details page
+
 - In the details page, the webapp retrieves data from the API to show detailed data in the category.
 - When the user clicks on the "Back" button (<), the user navigates to the home page.
 
@@ -77,11 +80,12 @@ You will select an API that provides numeric data about a topic that you like an
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://metricswebapp.onrender.com/) 
+- [Live Demo](https://metricswebapp.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DESCRIPTION VIDEO LINK -->
+
 ## 🚀 Description Video Link <a name="live-demo"></a>
 
 - [Description Video Link]()
@@ -104,21 +108,22 @@ To get a local copy up and running, follow these steps.
 
 2. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
 
-    ```shell
-    $ node --version
-    v16.13.2
+   ```shell
+   $ node --version
+   v16.13.2
 
-    $ npm --version
-    8.1.2
-    ```
-    > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
+   $ npm --version
+   8.1.2
+   ```
+
+   > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
 
 3. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
-    ```shell
-    $ git --version
-    git version 2.29.1.windows.1
-    ```
+   ```shell
+   $ git --version
+   git version 2.29.1.windows.1
+   ```
 
 4. A [GitHub](https://github.com/signup) account. :octocat:
 
@@ -167,13 +172,13 @@ Example:
 ```sh
 npx create-react-app .
 npm install react-redux @reduxjs/toolkit
-npm install react-router-dom  
+npm install react-router-dom
 npm i -S redux
-npm i -S prop-types  
-npm i axios 
+npm i -S prop-types
+npm i axios
 npm i react-test-renderer
 npm install react-bootstrap bootstrap
-npm i -S redux-thunk 
+npm i -S redux-thunk
 npm i react-circular-progressbar
 npm i -S uuid
 npm install react-icons
@@ -207,6 +212,7 @@ npm i redux-mock-store
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
 - Implement some UX improvements: include transitions and/or animations, etc.
 - Implement additional pages in the website (each with a route in the SPA): about me, references, etc.
 
@@ -231,6 +237,7 @@ If you like this project, please give it a star ⭐
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 Special thanks to all the assistance received!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -239,7 +246,7 @@ Special thanks to all the assistance received!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.txt) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
