@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import App from '../App';
-import store from '../redux/configureStore';
+import store from '../Redux/configureStore';
 import '@testing-library/jest-dom';
 
 it('Check if Item component has changed', () => {
