@@ -43,7 +43,6 @@ const Continents = () => {
     <div className="containerMain">
       <Wrapper map={world} name="World" population={sum} />
       <div className="section-title">
-        <CountryList />
       </div>
       <Navbar>
         <Nav className="navbar">
