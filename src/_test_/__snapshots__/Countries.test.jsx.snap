@@ -36,6 +36,24 @@ exports[`Countries page renders correctly 1`] = `
   <nav
     className="navbar navbar-expand navbar-light"
   >
+    <form
+      className=""
+      inline={true}
+    >
+      <input
+        className="mr-sm-2 form-control"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+      <button
+        className="btn btn-outline-info"
+        disabled={false}
+        type="button"
+      >
+        Search
+      </button>
+    </form>
     <div
       className="navbar navbar-nav"
       onKeyDown={[Function]}
