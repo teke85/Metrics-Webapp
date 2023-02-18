@@ -63,6 +63,9 @@ You will select an API that provides numeric data about a topic that you like an
 
 ### Key Features <a name="key-features"></a>
 
+- Retrieve data from Rest Countries API
+- Display country related information
+
 #### Home page
 
 - When the page loads, the webapp shows the list of categories that could be filtered out by some parameter, for example by the category name.
@@ -165,35 +168,7 @@ To run tests, run the following command:
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-npx create-react-app .
-npm install react-redux @reduxjs/toolkit
-npm install react-router-dom
-npm i -S redux
-npm i -S prop-types
-npm i axios
-npm i react-test-renderer
-npm install react-bootstrap bootstrap
-npm i -S redux-thunk
-npm i react-circular-progressbar
-npm i -S uuid
-npm install react-icons
-npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-npm install history
-npm install --save-dev jest
-npm install --save-dev babel-jest @babel/core @babel/preset-env
-npm install --save-dev jest @testing-library/react
-npm install --save-dev redux react-redux
-npm install --save-dev jest-environment-jsdom
-npm install --save-dev @testing-library/jest-dom
-npm i redux-mock-store
-```
- -->
+Render (https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
