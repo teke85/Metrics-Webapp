@@ -6,6 +6,7 @@ import { getContinents } from '../Redux/Continent/continentsSlice';
 import Continent from '../components/Continent';
 import Wrapper from '../components/Wrapper';
 import world from '../images/world.svg';
+import CountryList from '../components/CountryList';
 
 const Continents = () => {
   const navigate = useNavigate();
@@ -42,7 +43,7 @@ const Continents = () => {
     <div className="containerMain">
       <Wrapper map={world} name="World" population={sum} />
       <div className="section-title">
-        <h4>Continent</h4>
+        <CountryList />
       </div>
       <Navbar>
         <Nav className="navbar">

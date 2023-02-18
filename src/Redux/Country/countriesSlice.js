@@ -20,7 +20,7 @@ export const getCountries = createAsyncThunk(
 );
 
 const countryInformation = (data) => {
-  const newContries = data
+  const newCountries = data
     .filter((country) => country.independent)
     .map((country) => ({
       id: country.cca3,
@@ -41,7 +41,7 @@ const countryInformation = (data) => {
       languages: country.languages,
     }));
 
-  return newContries.sort((a, b) => a.name.localeCompare(b.name));
+  return newCountries.sort((a, b) => a.name.localeCompare(b.name));
 };
 
 const countriesSlice = createSlice({

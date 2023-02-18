@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import {
+  Navbar, Nav, Form, FormControl, Button,
+} from 'react-bootstrap';
 import { getCountries } from '../Redux/Country/countriesSlice';
 import Country from '../components/Country';
 import Wrapper from '../components/Wrapper';
@@ -18,6 +20,8 @@ const Countries = () => {
   } = continent;
   const { countries, status, error } = useSelector((state) => state.countries);
 
+  const [searchTerm, setSearchTerm] = useState('');
+
   useEffect(() => {
     if (
       countries.length === 0
@@ -31,6 +35,15 @@ const Countries = () => {
   const handleCountryClick = (country) => {
     navigate(`/country?country=${JSON.stringify(country)}`);
   };
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredCountries = countries.filter(
+    (country) => country.name.toLowerCase().includes(searchTerm.toLowerCase()),
+    [searchTerm],
+  );
 
   if (status === 'loading') {
     return <div>Loading...</div>;
@@ -62,8 +75,12 @@ const Countries = () => {
         </h4>
       </div>
       <Navbar>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" onChange={handleSearch} />
+          <Button variant="outline-info">Search</Button>
+        </Form>
         <Nav className="navbar">
-          {countries.map((country) => (
+          {filteredCountries.map((country) => (
             <Nav.Link
               className="nav-item"
               key={country.id}
@@ -80,4 +97,5 @@ const Countries = () => {
     </div>
   );
 };
+
 export default Countries;
